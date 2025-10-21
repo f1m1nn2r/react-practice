@@ -7,7 +7,7 @@ export default function Example2_input() {
   };
 
   return (
-    <>
+    <section className="mb-30">
       <p className="text-2xl font-medium mb-5">Example2. 인풋값 실시간 반영</p>
 
       <div className="max-h-100 overflow-y-auto">
@@ -19,6 +19,6 @@ export default function Example2_input() {
         ></textarea>
         <p>{input}</p>
       </div>
-    </>
+    </section>
   );
 }
