@@ -20,9 +20,7 @@ export default function Example1_counter() {
 
   return (
     <>
-      <h1 style={{ fontSize: "30px", fontWeight: "semiBold" }}>
-        카운터 만들기
-      </h1>
+      <p className="text-2xl font-medium">카운터 만들기</p>
 
       <CounterView count={count} />
       <CounterController setCount={clickCount} />
