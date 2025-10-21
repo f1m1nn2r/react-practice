@@ -12,7 +12,9 @@ export default function CounterController({ setCount }) {
                 setCount(value);
               }}
               key={value}
-              style={{ background: value > 0 ? "green" : "red" }}
+              className={`m-3 py-3 px-6 cursor-pointer ${
+                value > 0 ? "bg-blue-300" : "bg-red-300"
+              }`}
             >
               {value}
             </button>
