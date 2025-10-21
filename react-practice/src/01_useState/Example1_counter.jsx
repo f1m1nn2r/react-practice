@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CounterController from "./CounterController";
-import CounterView from "./CounterView";
+import CounterController from "./counter/CounterController";
+import CounterView from "./counter/CounterView";
 
 export default function Example1_counter() {
   const [count, setCount] = useState(0);
@@ -19,11 +19,11 @@ export default function Example1_counter() {
   };
 
   return (
-    <>
-      <p className="text-2xl font-medium">카운터 만들기</p>
+    <section className="mb-30">
+      <p className="text-2xl font-medium mb-5">Example1. 카운터 만들기</p>
 
       <CounterView count={count} />
       <CounterController setCount={clickCount} />
-    </>
+    </section>
   );
 }
