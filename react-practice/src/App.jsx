@@ -2,6 +2,7 @@ import Example1_counter from "./01_useState/Example1_counter";
 import Example2_input from "./01_useState/Example2_input";
 import Example3_todoList from "./01_useState/Example3_todoList";
 import Example4_heart from "./01_useState/Example4_heart";
+import Example5_themeToggle from "./01_useState/Example5_themeToggle";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Example2_input />
       <Example3_todoList />
       <Example4_heart />
+      <Example5_themeToggle />
     </div>
   );
 }
