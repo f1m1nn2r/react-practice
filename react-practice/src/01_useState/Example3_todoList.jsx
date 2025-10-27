@@ -26,7 +26,7 @@ export default function Example3_todoList() {
   };
 
   return (
-    <section className="border p-10">
+    <section className="border p-10 mb-30">
       <header className="mb-10">
         <p className="text-2xl font-medium mb-5">Example3. ToDo 리스트</p>
         <span className="text-base">할 일을 입력하고 추가해보세요</span>
