@@ -8,7 +8,7 @@ export default function Example4_heart() {
   };
 
   return (
-    <section className="">
+    <section className="mb-30">
       <header className="mb-10">
         <p className="text-2xl font-medium mb-5">Example4. 좋아요 버튼 토글</p>
       </header>
