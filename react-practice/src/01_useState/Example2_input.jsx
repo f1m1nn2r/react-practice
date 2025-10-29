@@ -8,7 +8,9 @@ export default function Example2_input() {
 
   return (
     <section className="mb-30">
-      <p className="text-2xl font-medium mb-5">Example2. 인풋값 실시간 반영</p>
+      <header className="mb-10">
+        <p className="text-2xl font-medium">Example2. 인풋값 실시간 반영</p>
+      </header>
 
       <div className="max-h-100 overflow-y-auto">
         <textarea
