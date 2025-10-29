@@ -20,7 +20,9 @@ export default function Example1_counter() {
 
   return (
     <section className="mb-30">
-      <p className="text-2xl font-medium mb-5">Example1. 카운터 만들기</p>
+      <header className="mb-10">
+        <p className="text-2xl font-medium">Example1. 카운터 만들기</p>
+      </header>
 
       <CounterView count={count} />
       <CounterController setCount={clickCount} />
