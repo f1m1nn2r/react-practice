@@ -25,7 +25,7 @@
       - Example1_mountLog.jsx
   - ✔️ 입력값 변화 감지해서 콘솔에 출력하기
     - 📂 Example2_inputEffect.jsx
-  - API 요청 시 fetch 데이터 불러오기
+  - ✔️ API 요청 시 fetch 데이터 불러오기
   - 창 크기 감지 이벤트
 - ☑️ props
   - 부모가 자식에게 이름 전달하기
