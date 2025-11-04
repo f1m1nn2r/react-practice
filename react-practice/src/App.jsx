@@ -4,6 +4,7 @@ import Example3_todoList from "./01_useState/Example3_todoList";
 import Example4_heart from "./01_useState/Example4_heart";
 import Example5_themeToggle from "./01_useState/Example5_themeToggle";
 import Example1_mountLog_layout from "./02_useEffect/Example1_mountLog_layout";
+import Example2_inputEffect from "./02_useEffect/Example2_inputEffect";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <p className="text-4xl font-bold">2. useEffect</p>
         </header>
         <Example1_mountLog_layout />
+        <Example2_inputEffect />
       </div>
     </section>
   );
