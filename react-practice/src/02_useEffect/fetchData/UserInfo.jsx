@@ -1,6 +1,6 @@
 export default function UserInfo({ user }) {
   const { picture, name, login } = user;
-  console.log(user);
+  // console.log(user);
   return (
     <>
       <div>
