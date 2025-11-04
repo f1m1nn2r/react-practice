@@ -6,6 +6,7 @@ import Example5_themeToggle from "./01_useState/Example5_themeToggle";
 import Example1_mountLog_layout from "./02_useEffect/Example1_mountLog_layout";
 import Example2_inputEffect from "./02_useEffect/Example2_inputEffect";
 import Example3_FetchData from "./02_useEffect/Example3_FetchData";
+import { Example4_WindowResize } from "./02_useEffect/Example4_WindowResize";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Example1_mountLog_layout />
         <Example2_inputEffect />
         <Example3_FetchData />
+        <Example4_WindowResize />
       </div>
     </section>
   );
