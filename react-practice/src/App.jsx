@@ -5,6 +5,7 @@ import Example4_heart from "./01_useState/Example4_heart";
 import Example5_themeToggle from "./01_useState/Example5_themeToggle";
 import Example1_mountLog_layout from "./02_useEffect/Example1_mountLog_layout";
 import Example2_inputEffect from "./02_useEffect/Example2_inputEffect";
+import Example3_FetchData from "./02_useEffect/Example3_FetchData";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </header>
         <Example1_mountLog_layout />
         <Example2_inputEffect />
+        <Example3_FetchData />
       </div>
     </section>
   );
