@@ -6,7 +6,8 @@ import Example5_themeToggle from "./01_useState/Example5_themeToggle";
 import Example1_mountLog_layout from "./02_useEffect/Example1_mountLog_layout";
 import Example2_inputEffect from "./02_useEffect/Example2_inputEffect";
 import Example3_FetchData from "./02_useEffect/Example3_FetchData";
-import { Example4_WindowResize } from "./02_useEffect/Example4_WindowResize";
+import Example4_WindowResize from "./02_useEffect/Example4_WindowResize";
+import Example1_PropsPassing from "./03_props/Example1_PropsPassing";
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
         <Example2_inputEffect />
         <Example3_FetchData />
         <Example4_WindowResize />
+      </div>
+      <div className="useEffect">
+        <header className="mb-10">
+          <p className="text-4xl font-bold">3. props</p>
+        </header>
+        <Example1_PropsPassing />
       </div>
     </section>
   );
