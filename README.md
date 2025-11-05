@@ -26,10 +26,11 @@
   - ✔️ 입력값 변화 감지해서 콘솔에 출력하기
     - 📂 Example2_inputEffect.jsx
   - ✔️ API 요청 시 fetch 데이터 불러오기
+    - 📂 Example3_FetchData.jsx
   - ✔️ 창 크기 감지 이벤트
+    - 📂 Example4_WindowResize.jsx
 - ☑️ props
-  - 부모가 자식에게 이름 전달하기
-  - 부모가 자식에게 함수 전달하기
+  - 부모가 자식에게 이름/함수 전달하기
   - 컴포넌트 재사용(props로 색/텍스트 다르게)
 - ☑️ 조건부 렌더링
   - 로그인 여부에 따라 문구 다르게 표시
